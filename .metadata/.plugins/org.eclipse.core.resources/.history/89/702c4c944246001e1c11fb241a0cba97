@@ -20,20 +20,7 @@ public class Scannersample {
 		System.out.println("당신의 이름은 " + name + "입니다.");
 		System.out.println("당신의 전화번호는 " +phoneNumber + "입니다.");
 		
-		//내 취미와 내가 좋아하는 음식과 내 주소 1개 출력하기
-		System.out.print("이름1 : ");
-		String name1, name2;
-		name1 = sc.next(); //공백을 받지 않음 붙여쓰는것만가능
-		System.out.print("이름2 : ");
-		name2 = sc.nextLine();
-		System.out.println(name1);
-		System.out.println(name2);
-		
 		
 		
 	}
 }
-
-
-
-
