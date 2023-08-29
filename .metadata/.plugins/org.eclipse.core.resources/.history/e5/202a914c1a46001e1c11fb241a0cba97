@@ -1,0 +1,13 @@
+package com.kh.variable;
+
+public class VariavbleSample {
+	public static void main(String[] args) {
+		String name;
+		name = "ÄíÆÎ";
+		
+		int hour = 15;
+		double score = 90.5;
+		char grade = 'A';
+	}
+
+}
