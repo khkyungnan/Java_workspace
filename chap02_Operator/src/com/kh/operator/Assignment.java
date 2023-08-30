@@ -33,8 +33,16 @@ public class Assignment {
 		System.out.println("b : " + b);
 		
 		int c = 8;
-		c *= 2; 
+		c *= 2; //c = c * 2;客 悼老
 		System.out.println("c : " + c);
+		
+		int d = 50;
+		d /= 10; //d绰 5 (d = d / 10; 客 悼老)
+		System.out.println("d : " + d);
+		
+		int e = 25;
+		e %= 7; //e绰 4 ( e = e % 7;客 悼老)
+		System.out.println("e : " + e);
 	}
 
 }
