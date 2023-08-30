@@ -24,9 +24,10 @@ public class Scannersample {
 		System.out.print("이름1 : ");
 		String name1, name2;
 		name1 = sc.next(); //공백을 받지 않음 붙여쓰는것만가능
-		System.out.print("이름2 : ");
-		name2 = sc.nextLine();
 		System.out.println(name1);
+		System.out.print("이름2 : ");
+		name2 = sc.nextLine(); // 엔터 치기 전까지를 출력 
+		
 		System.out.println(name2);
 		
 		
