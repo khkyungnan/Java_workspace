@@ -8,8 +8,8 @@ Java_workspace
 
 
 
-상담 신청 폼 https://forms.gle/7nANmTpUGTQhtBVD6
-상담 일정 https://docs.google.com/spreadsheets/d/1NPVEpRx0G76FaJkCdo_G8ccUw1HoJaOXYtNqrBek8BM/edit#gid=1462092261
+상담 신청 폼 https://forms.gle/7nANmTpUGTQhtBVD6<br/>
+상담 일정 https://docs.google.com/spreadsheets/d/1NPVEpRx0G76FaJkCdo_G8ccUw1HoJaOXYtNqrBek8BM/edit#gid=1462092261<br/>
 
 
 상담 신청 폼 작성 후 카카오톡 남겨주세요.
