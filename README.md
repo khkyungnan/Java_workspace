@@ -1,12 +1,12 @@
 # Java_workspace
 
 Java_workspace
-연락가능시간 : 평일 오전 9시 ~ 오후 10시
+연락가능시간 : 평일 오전 9시 ~ 오후 10시<br/>
+<br/>
+핸드폰번호 : 010-7697-6190<br/>
+이메일 : kimkyungnan@iei.or.kr<br/>
 
-핸드폰번호 : 010-7697-6190
-이메일 : kimkyungnan@iei.or.kr
-
-
+<br/><br/><br/>
 
 상담 신청 폼 https://forms.gle/7nANmTpUGTQhtBVD6<br/>
 상담 일정 https://docs.google.com/spreadsheets/d/1NPVEpRx0G76FaJkCdo_G8ccUw1HoJaOXYtNqrBek8BM/edit#gid=1462092261<br/>
