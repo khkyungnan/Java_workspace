@@ -15,7 +15,7 @@ public class SwitchCoffee {
 			System.out.println("커피주문 해주세요. 1. 아메리카노 2. 카페라떼 3.홍차");
 			
 			choice = scanner.nextInt();
-			
+			 
 			switch (choice) {
 			case 1:
 				System.out.println("아메리카노 주문");
