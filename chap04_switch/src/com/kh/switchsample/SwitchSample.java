@@ -25,13 +25,13 @@ public class SwitchSample {
 		switch (day) { //day == 30
 			case 1: //case가 30이면 월요일 출력 false
 				System.out.println("월요일"); //출력되지 않음
-				break;
+				
 			case 2:
 				System.out.println("화요일"); //출력되지 않음
-				break;
+				
 			case 30:
 				System.out.println("수요일");
-				break;
+				
 			default :
 				System.out.println("주말");
 		}

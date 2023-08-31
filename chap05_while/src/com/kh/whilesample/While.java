@@ -18,14 +18,23 @@ public class While {
 		 	//조건이 참인 동안 실행될 코드
 		 }
 		  */
-		int count = 1;
-		while (count <= 5) {
-			System.out.println("반복 : " + count);
-			count++; //반복 횟수를 증가시킴
+		int age = 1;
+		boolean isTrueAndFalse = true;
+		while(isTrueAndFalse) { //true에서 false 
+			System.out.println("안끝나지롱~~~");
+			switch (age) {
+				case 1:
+					System.out.println("끝내자");
+					isTrueAndFalse = false;
+					break;
+					
+			}
 		}
 
 	}
 
 }
+
+
 
 

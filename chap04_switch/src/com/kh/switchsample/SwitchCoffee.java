@@ -9,7 +9,7 @@ public class SwitchCoffee {
 		Scanner scanner = new Scanner(System.in);
 		
 		int choice;
-		boolean isChoice = false;
+		boolean isChoice = true;
 		
 		while (isChoice) { //조건이 참인 동안 코드 블록을 반복적으로 실행
 			System.out.println("커피주문 해주세요. 1. 아메리카노 2. 카페라떼 3.홍차");
@@ -19,11 +19,11 @@ public class SwitchCoffee {
 			switch (choice) {
 			case 1:
 				System.out.println("아메리카노 주문");
-				isChoice = true;
+				isChoice = false;
 				break;
 			case 2:
 				System.out.println("카페라떼 주문");
-				isChoice = true;
+				isChoice = false;
 				break;
 			case 3:
 				System.out.println("홍차주문");

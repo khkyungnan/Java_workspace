@@ -21,8 +21,8 @@ public class Practice1 {
 		Scanner sc = new Scanner(System.in);
 		System.out.println("번호만 입력바람 // 1.입력 2.수정 3.조회 4.삭제 7.종료");
 		int choice = sc.nextInt(); //번호 입력
-		
-		/** 1.if문
+		/*
+		/** 1.if문 **/
 		if (choice == 1) {
 			System.out.println("입력");
 		} else if (choice == 2) { //3.조회 4.삭제 7.종료");
