@@ -33,7 +33,7 @@ public class Practice1 {
 			System.out.println("삭제");
 		} else if (choice == 7) {//else를 쓸 경우 조건을 넣지 못하기 때문에 else if 를 써야함
 			System.out.println("프로그램이 종료됩니다.");
-		}
+		} 
 
 	}
 
