@@ -1,8 +1,8 @@
-package com.kh.practice.exam;
+package com.kh.practice.chap02;
 
 import java.util.Scanner;
 
-public class Practice9 {
+public class Practice5 {
 	public static void main(String[] args) {
 		 Scanner scanner = new Scanner(System.in);
 	        
