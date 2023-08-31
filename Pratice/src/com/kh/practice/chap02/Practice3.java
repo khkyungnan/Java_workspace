@@ -8,7 +8,7 @@ public class Practice3 {
 		/*
 		 위 문제와 모든 것이 동일하나, 1 미만의 숫자가 입력됐다면 
 		 “1 이상의 숫자를 입력해주세요”가 출력되면서 다시 사용자가 값을 입력하도록 하세요.
-		 * */
+		  */
 		Scanner sc = new Scanner(System.in);
 		
 		System.out.println("숫자를 입력하세요:");
@@ -18,7 +18,19 @@ public class Practice3 {
 			switch (num) {
 				case 0:
 					System.out.println("");
+				default:
+					
 			}
 		}
 	}
 }
+
+
+/*
+		hint
+        for (int i = number; 범위 변경 해보기; i--) {
+            System.out.print(i + " ");
+        }
+
+        
+ * */
