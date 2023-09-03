@@ -7,7 +7,7 @@ public class Practice2 {
 	public static void main(String[] args) {
 		/*
 		 다음과 같은 실행 예제를 구현하세요.
-			
+			이중 for문 사용하지 않고 만드는 예
 			ex.
 			정수 입력 : 5
 			*****
@@ -37,3 +37,5 @@ public class Practice2 {
 	}
 
 }
+
+class A
