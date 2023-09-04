@@ -1,5 +1,6 @@
 package com.kh.classSample;
 
+import com.kh.classSample.Student;
 public class StudentMain {
 
 	public static void main(String[] args) {

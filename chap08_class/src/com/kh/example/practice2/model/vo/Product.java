@@ -15,7 +15,7 @@ public class Product {
 	//+ Product()
 	public Product(String pname, int price, String brand) {
 		this.pname = pname;
-		this.price = 0;
+		this.price = price;
 		this.brand = brand;
 	}
 	//3. 정보 출력 메소드 만들기
