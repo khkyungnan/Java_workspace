@@ -21,17 +21,7 @@ public class StudentMain {
 		 student3.displayInfo();
 		 Student student4 = new Student("kh댄싱",23,"4학년");
 		 student4.displayInfo();
-		 
-		 System.out.println("처음은 글자","두 번째는 숫자","세 번째는 학년");
-		 System.out.println("처음은 나이","두 번째는 숫자","세 번째는 학년");
-		 System.out.println("처음은 학년","두 번째는 숫자","세 번째는 학년");
-		 System.out.println("처음은 글자","두 번째는 이름","세 번째는 이름");
-		 System.out.println("처음은 글자","두 번째는 숫자","세 번째는 학년");
-		 System.out.println("처음은 글자","두 번째는 숫자","세 번째는 학년");
-		 System.out.println("처음은 글자","두 번째는 숫자","세 번째는 학년");
-		 System.out.println("처음은 글자","두 번째는 숫자","세 번째는 학년");
-		 System.out.println("처음은 글자","두 번째는 숫자","세 번째는 학년");
-		 System.out.println("처음은 글자","두 번째는 숫자","세 번째는 학년");
+
 		 
 
 	}

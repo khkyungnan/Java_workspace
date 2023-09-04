@@ -1,7 +1,6 @@
 package com.kh.classSample;
-public static void main(String[] args) {
-}
-public class 색상(String color) { //매개변수 or 파라미터
+
+public class color(String color) { //매개변수 or 파라미터
 	//어떤 색상을 입력하세요;
 	String color;
 }
@@ -33,5 +32,7 @@ public class Class01 {
 		number[0] = "3; //출석이 아니라 3반 넣을거야
 	}
 	*/
-	
+	public static void main(String[] args) {
+
+}
 }
