@@ -17,7 +17,7 @@ public class Practice2 {
 			*****
 		 * */
 		Scanner sc = new Scanner(System.in);
-		System.out.println("input");
+		System.out.println("input : ");
 		int n = sc.nextInt();
 		String v = "";
 		for(int i=0;i<n-2;i++) {
@@ -37,5 +37,3 @@ public class Practice2 {
 	}
 
 }
-
-class A

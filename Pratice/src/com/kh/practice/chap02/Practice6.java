@@ -14,11 +14,6 @@ public class Practice6 {
     */
 	
     public static void main(String[] args) {
-    	practice2;
-    }
-
-        
-	public void practice1() {
 		Scanner sc = new Scanner(System.in);
 	    
 	    System.out.print("첫 번째 숫자를 입력하세요: ");
@@ -35,16 +30,12 @@ public class Practice6 {
 	    for(int i = start; i <=end; i++) {
 	    	System.out.println(i);
 	    }
-	    
-	}
-	public void practice2() {
-	Scanner scanner = new Scanner(System.in);
-	        
+
 	        System.out.print("첫 번째 숫자를 입력하세요: ");
-	        int firstNumber = scanner.nextInt();
+	       // int firstNumber = scanner.nextInt();
 	        
 	        System.out.print("두 번째 숫자를 입력하세요: ");
-	        int secondNumber = scanner.nextInt();
+	      //  int secondNumber = scanner.nextInt();
 	        
 	        
 	    	int reStart = end; //end가 start보다 작을 때 restart로 넣어준다
@@ -62,18 +53,17 @@ public class Practice6 {
 	    		}
 	    	}
 	    	
-	    	
 	    	if(start < end) { //마지막 출력이 첫출력보다 클 
-	    		int reStart = start;
-	    		int reEnd = end;
+	    		reStart = start;
+	    		reEnd = end;
 	    	} else if (end < start) {
-	    		int reStart = end;
-	    		int reEnd = start;
+	    		reStart = end;
+	    		reEnd = start;
 	    	}
 	    	//int reStart, reEnd;
 	    	for (int i = reStart; i <= reEnd; i++ ) {
 	    		System.out.println(i);
 			}
-		}
+    }
 }
 
