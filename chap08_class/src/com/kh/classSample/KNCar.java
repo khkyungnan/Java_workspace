@@ -1,6 +1,6 @@
 package com.kh.classSample;
 
-public class Car {
+public class KNCar {
 	//1. 상태 필드 멤버변수
 	String brand;     //브랜드
 	String model;     //모델
@@ -13,7 +13,7 @@ public class Car {
 	
 	//2. 생성자는 메서드의 한가지 종류
 	// 차를 볼 때 필수로 넣을 파라미터는 브랜드와 모델
-	public Car(String brand, String model) {
+	public KNCar(String brand, String model) {
 		System.out.println("Car 정의");
 		this.brand = brand; //차를 KN에서만 보겠다.
 		this.model = model;//KN 에서 다양한 모델만 보겠다.

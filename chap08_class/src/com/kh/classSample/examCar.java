@@ -16,8 +16,5 @@ public class examCar {//자동차 클래스 정의
 }
 
 
-Car("bmw","i7 m70");
-Car("KN","a1");
-Car("Toyota","Camry");
 
 

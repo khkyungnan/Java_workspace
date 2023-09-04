@@ -8,6 +8,8 @@ public class CarMain {
 	   System.out.println("");
 		
 		Car myCar = new Car("Toyota","Carmy");
+		
+		Car myCar2 = new Car("Toyota","NNNN");
 	   myCar.startEngine();
 	   myCar.acclerate(50);
 	   
