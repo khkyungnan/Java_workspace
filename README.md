@@ -18,8 +18,9 @@ Java_workspace
 상담 신청 폼 작성 후 카카오톡 남겨주세요.
 <br/><br/>
 
-집에서 깃 설치 https://desktop.github.com/
-
+집에서 깃 설치 https://desktop.github.com/ <br/>
+깃 명령어 설치 https://git-scm.com/downloads <br/>
+git 설치 방법 https://docs.google.com/document/d/1gLnlolCd2nt9BF1lPHPQTuNmQS7FM6BDBVvDFlu3YGw/edit
 <br/><br/>
 숙제 올리는 방법 https://docs.google.com/document/d/1gLnlolCd2nt9BF1lPHPQTuNmQS7FM6BDBVvDFlu3YGw/edit
 <br/><br/>
