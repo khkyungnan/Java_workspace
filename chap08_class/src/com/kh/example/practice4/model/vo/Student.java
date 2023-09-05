@@ -2,11 +2,11 @@ package com.kh.example.practice4.model.vo;
 
 public class Student {
 	//1. 멤버 변수
-	int grade;
-	int classroom; 
-	String name;
-	double height;
-	char gender;
+	private int grade;
+	private int classroom; 
+	private String name;
+	private double height;
+	private char gender;
 	  
 	// 2. 생성자 Student()
 	public Student() {

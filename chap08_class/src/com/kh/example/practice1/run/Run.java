@@ -14,6 +14,7 @@ printName()를 이용해 출
 		 만약에 char 값을 넣고 싶으면 '' 를 넣어줘야함 ex) '남' '여'
 		 * Member member = new Member('남');*/
 		Member member = new Member();
+		//member.memberId();
 		// 2. changeName() 값 변경
 		member.changeName("뉴네임");
 		// 3. printName()를 이용해 출력
