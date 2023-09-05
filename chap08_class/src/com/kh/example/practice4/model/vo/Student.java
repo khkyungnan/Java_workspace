@@ -7,7 +7,7 @@ public class Student {
 	String name;
 	double height;
 	char gender;
-	
+	  
 	// 2. 생성자 Student()
 	public Student() {
 		//초기화 블럭을 이용해 각 필드 초기화 초기화블럭 {}
