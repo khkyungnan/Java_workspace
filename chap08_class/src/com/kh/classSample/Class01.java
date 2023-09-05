@@ -1,9 +1,15 @@
 package com.kh.classSample;
 
-public class color(String color) { //매개변수 or 파라미터
+public class Class01(String color) { //매개변수 or 파라미터
 	//어떤 색상을 입력하세요;
 	String color;
-}
+	String name; //이 사람의 이름
+	int grade; //이 사람의 학년
+	int classNo; //이 사람의 반 번호
+	int number; //이 사람의 출석번호
+	public static void main(String[] args) {
+
+	}
 /*
 public class Class01 {
 	String name; //이름
@@ -13,10 +19,7 @@ public class Class01 {
 }
 	
 */	
-	String name; //이 사람의 이름
-	int grade; //이 사람의 학년
-	int classNo; //이 사람의 반 번호
-	int number; //이 사람의 출석번호
+	
 	//한 반에 학급인원이 30명이 있다.
 	//이름 반 번호 이름
 	/*
@@ -32,7 +35,5 @@ public class Class01 {
 		number[0] = "3; //출석이 아니라 3반 넣을거야
 	}
 	*/
-	public static void main(String[] args) {
 
-}
 }
