@@ -1,7 +1,9 @@
 package com.kh.inheritance.calculator;
 
+import java.util.Scanner;
+
 public class Calculator {
-	//계산기
+
 	int num1,num2;
 	
 	//1. 더하기
