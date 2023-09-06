@@ -2,14 +2,16 @@ package com.kh.inheritance.animal;
 
 public class Animal { //동물 클래스 정의
 	private String name;
-	private int age;
-	
-	public Animal(String name, int age) {
+
+	public Animal(String name) {
 		this.name = name;
-		this.age = age;
+	}
+	
+	public String getName() {
+		return name;
 	}
 	public void info() {
-		System.out.println("이름 " + name + " 나이 " + age);
+		System.out.println("이름 " + name);
 	}
 	public void eat() {
 		System.out.println(name + " 먹이를 먹습니다.");
