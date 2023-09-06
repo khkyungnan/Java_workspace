@@ -12,6 +12,12 @@ public class AnimalMain {
 		Cat mycat = new Cat("°í¾ß¹Ì");
 		mycat.run();
 		mycat.eat();
+		
+		
+		Monkey myMonkey = new Monkey("¸ù¸ù");
+		myMonkey.speak();
+		myMonkey.eat();
+		myMonkey.sleep();
 	}
 
 }
