@@ -9,7 +9,8 @@ public class GoodPlayer {
 
 	public void ValidName() {	//캐릭터이름에 공백이 없는지 검증!
 		if(this.name =="") {
-			System.out.println("이름을 넣지 않았습니다.");
+			this.name = "No name";
+			//System.out.println("이름을 넣지 않았습니다.");
 		}
 	}
 	
@@ -50,4 +51,13 @@ public class GoodPlayer {
 	public int getAttackPower() {
 		return attackPower;
 	}
+	//출력메소드 작성
+	public void displayInfo() {
+		System.out.println("캐릭터 정보 : " + this.name);
+		System.out.println("체력 정보  : " + this.health);
+		System.out.println("공격 파워  : " + this.attackPower);
+	}
+	
 }
+
+
