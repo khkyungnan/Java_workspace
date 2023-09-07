@@ -39,7 +39,7 @@ public class VariableConversion {
 		//2. 명시적 형변환(강제 형변환)
 		
 		//long -> int
-		long largeLong = 123456789012345L;
+		long largeLong = 123456789012345L; //int -> Long
 		System.out.print("largeLong : ");
 		System.out.println(largeLong);
 		int largeInt = (int) largeLong;
@@ -71,7 +71,9 @@ public class VariableConversion {
 		// double -> int로 형변환  1개 출력
 		
 		//int를 short로 형변환 1개 출력
-		
+		float aaa =3.143742423424234324324f;
+		double bbb= (char) aaa; //=3.1437
+		System.out.println("double" + bbb);//=3.14376343535435433543;
 	}
 	
 }

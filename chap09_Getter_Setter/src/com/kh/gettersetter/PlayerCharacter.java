@@ -40,7 +40,7 @@ public class PlayerCharacter {
 	public void setName(String name) {
 		this.name = name;
 	}
-
+//setter에서 검증한다 얘기를 하는지
 	public void setHealth(int health) {
 		// 만약에 체력이 0이라면 죽이고 체력이 1이상 이면 살리자
 		if(health >= 1 ) { // 체력이 1 이상일 경우

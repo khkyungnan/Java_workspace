@@ -19,13 +19,13 @@ public class While {
 		 }
 		  */
 		int age = 1;
-		boolean isTrueAndFalse = true;
-		while(isTrueAndFalse) { //true에서 false 
+		boolean isTrueAndFalse = false;
+		while(!isTrueAndFalse) { //true에서 false 
 			System.out.println("안끝나지롱~~~");
 			switch (age) {
 				case 1:
 					System.out.println("끝내자");
-					isTrueAndFalse = false;
+					isTrueAndFalse = true;
 					break;
 					
 			}

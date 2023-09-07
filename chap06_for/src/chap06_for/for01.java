@@ -60,11 +60,7 @@ public class for01 {
 			mul = 5 * i;
 			System.out.println("±¸±¸´Ü : "+ mul);
 		}
-		
-		
-		
 	}
-
 }
 
 

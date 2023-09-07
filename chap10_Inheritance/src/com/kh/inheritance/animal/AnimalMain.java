@@ -13,11 +13,11 @@ public class AnimalMain {
 		mycat.run();
 		mycat.eat();
 		
-		
-		Monkey myMonkey = new Monkey("根根");
-		myMonkey.speak();
-		myMonkey.eat();
-		myMonkey.sleep();
+		System.out.println();
+		Monkey System = new Monkey("根根");
+		System.out();
+		System.eat();
+		System.sleep();
 	}
 
 }

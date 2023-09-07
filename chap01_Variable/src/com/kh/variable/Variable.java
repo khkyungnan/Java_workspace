@@ -1,7 +1,7 @@
 package com.kh.variable;
 /*
  1. 변수의 이름은 영문자(대소문자), 
-언더스코어(_),달러($)로만 구성할 수 있다.
+	언더스코어(_),달러($)로만 구성할 수 있다.
 2.변수의 이름은 숫자로 시작할 수 없다.
 3.변수 이름 사이에는 공백을 포함할 수 없다.
 4.변수 이름으로 자바가 미리 설정한 이름은 사용할 수 없다.
@@ -11,7 +11,7 @@ public class Variable {
 	public static void main(String[] args) {
 		// 1. 변수의 이름은 영문자, 숫자, 언더스코어(_), 
 		//    달러($)로 구성할 수 있다.
-		int abc1 = 1;
+		int abc1 = 1; //지역변수
 		int abc_ = 2;
 		// int abc- = 3; //언더스코어와 달러만 사용할 수 있다.
 
@@ -71,7 +71,7 @@ public class Variable {
 	//4. 논리형
 	//boolean 은 true와 false 를 표현한다. 
 	//사용방법 boolean bln = true; false;
-	boolean bln = true;
+	boolean bln = true; //this.bln;
 	//System.out.println(bln);
 	boolean bln2 = false;
 	//System.out.println(bln2);

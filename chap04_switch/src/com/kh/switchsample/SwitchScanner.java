@@ -6,7 +6,7 @@ public class SwitchScanner {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 
-		System.out.println("추리게임의 정답을 선택하세요. 1.새우깡 2.칸쵸 3.오레오");
+		System.out.println("1.새우깡 2.칸쵸 3.오레오");
 		int yammy = sc.nextInt();
 
 		switch (yammy) {

@@ -20,7 +20,6 @@ ex.
 		
 		System.out.println("정수입력 : ");
 		int num = sc.nextInt();
-		
 		//사각형
 		//*****
 		//*   *

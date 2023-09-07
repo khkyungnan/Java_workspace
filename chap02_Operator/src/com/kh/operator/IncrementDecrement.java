@@ -30,9 +30,10 @@ public class IncrementDecrement {
 		val3 = num2++;//val3 변수에 기존 num3 값을 대입한 후 num3 값 1 증가
 		System.out.println("val3 : " + val3);
 		System.out.println("num2의 값 : " + num2);
-		
-		
-		
+		/*
+		++num;
+		num++;
+		*/
 	}
 
 }
