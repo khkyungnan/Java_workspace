@@ -17,18 +17,26 @@ public class UserController {
 		this.userview = userview;
 	}
 
-	public void setUsermodel(UserModel usermodel) {
-		this.usermodel = usermodel;
+	public void setUserName(String name) {
+		//this.usermodel = usermodel;
+		usermodel.setName(name);
 	}
 
-	public void setUserview(UsrView userview) {
-		this.userview = userview;
+	public void setUserAge(int Age) {
+		usermodel.setAge(Age);
 	}
-
-	public UserModel getUsermodel() {
-		return usermodel;
+	
+	public String getUserName() {
+		return usermodel.getName();
 	}
-	public UsrView getUserview() {
-		return userview;
+	
+	public int getUserAge() {
+		return usermodel.getAge();
+	}
+	
+	
+	public void updateView() {
+		//DB에 값 변경될 부분 추가
+		userview.displayInfo(usermodel.getName(), usermodel.getAge());
 	}
 }
