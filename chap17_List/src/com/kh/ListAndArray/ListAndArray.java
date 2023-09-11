@@ -6,7 +6,7 @@ import java.util.List;
 public class ListAndArray {
 
 	public static void main(String[] args) {
-		ListArray1();
+		ListArray1(); //static
 		ListAndArray LAA = new ListAndArray();
 		LAA.ListArray2();
 	}
