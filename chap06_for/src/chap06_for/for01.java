@@ -24,9 +24,7 @@ public class for01 {
 			System.out.println(i);//조건 i<=5 참일 경우에 실행되는 공간
 		}
 		
-		for (int i = 0; i <=5; i++) {
-			System.out.println("i의 값 : " + i);
-		}
+
 		
 		for (int i = 2; i <= 7; i++) {
 			System.out.println("i : " + i);
@@ -56,7 +54,10 @@ public class for01 {
 		}
 		*/
 		int mul = 1;
-		for(int i = 1; i <= 9; i++) {
+		for(int i = 1; i <= 9; i++) {//1번째 for문의 지역변수
+			for(int kk=1; kk<=9; kk++) {
+				System.out.println(kk);
+			}
 			mul = 5 * i;
 			System.out.println("구구단 : "+ mul);
 		}
