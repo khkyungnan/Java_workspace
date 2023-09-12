@@ -1,6 +1,6 @@
 package com.kh.abstractSample;
 //추상클래스 정의
-abstract class Shape {
+/*public*/ abstract class Shape {
 	//일반 필드
 	private String color;
 	
