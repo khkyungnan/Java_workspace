@@ -3,11 +3,11 @@ package com.kh.foodStore;
 import java.util.ArrayList;
 import java.util.List;
 
-//주문 객체
-public class Order implements FoodStore{
-	private List<Menu> ordermenus;
+//주문 객체2 출력하는 문구 변경
+public class Order2 implements FoodStore{
+private List<Menu> ordermenus;
 	
-	public Order() {
+	public Order2() {
 		ordermenus = new ArrayList<>();//주문한 내용들
 	}
 	
@@ -23,8 +23,9 @@ public class Order implements FoodStore{
 	}
 	@Override
 	public void printMenu() {
-		System.out.println("주문내역");
+		
 		//menuA.getItem();
+	 System.out.println("dddd");
 		for (Menu menuA: ordermenus) {
 			System.out.println(menuA.getItem());
 		}
