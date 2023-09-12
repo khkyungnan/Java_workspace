@@ -9,8 +9,8 @@ public class Dog extends Animal {
 		this.name = name;
 	}
 	//@Override
-	public String makeSound() {
+	public void makeSound() {
 		System.out.println("¼Ò¸®");
-		return name;
+		//return name;
 	}
 }
