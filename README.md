@@ -6,6 +6,12 @@ Java_workspace
 핸드폰번호 : 010-7697-6190<br/>
 이메일 : kimkyungnan@iei.or.kr<br/>
 
+pem Key<br/>
+https://drive.google.com/file/d/1N-PiYj5IaMgxp__aRNNEJuul547JKt6f/view?usp=sharing<br/><br/>
+IP 주소 올리기<br/>
+https://docs.google.com/document/d/1WhRy3V9LaGllms4gmDeLD0mWStZgM0bHkpZ2z_E1uSs/edit?usp=sharing<br/>
+
+
 <br/><br/>
 수업교재 및 실습교재 : https://drive.google.com/drive/folders/1isIPxQPrM04vW7lhlTcBnQK_zHArBQTY?usp=sharing<br/>
 Java APi Docs : https://docs.oracle.com/en/java/javase/11/docs/api/<br/>
