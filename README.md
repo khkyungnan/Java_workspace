@@ -8,6 +8,7 @@ Java_workspace
 
 pem Key<br/>
 https://drive.google.com/file/d/1N-PiYj5IaMgxp__aRNNEJuul547JKt6f/view?usp=sharing<br/><br/>
+IP 주소 올리기<br/>
 https://docs.google.com/document/d/1WhRy3V9LaGllms4gmDeLD0mWStZgM0bHkpZ2z_E1uSs/edit?usp=sharing<br/>
 
 
