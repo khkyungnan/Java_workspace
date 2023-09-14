@@ -6,7 +6,8 @@ public class ExceptionMain {
 		ExceptionMain exmain = new ExceptionMain();
 		//exmain.ExceptionA();
 		//exmain.ExceptionN();
-		exmain.ExceptionF();
+		//exmain.ExceptionF();
+		exmain.ExceptionExam();
 	}
 	public void ExceptionA() {
 		try {
@@ -44,8 +45,8 @@ public class ExceptionMain {
 			//050904
 		try {
 			String juminNumber = "공오공904";
-			int number = Integer.parseInt(juminNumber);
-			System.out.println("숫자 : " + number);
+			int number = Integer.parseInt(juminNumber);//문자열을 정수로 변환 시도
+			System.out.println("숫자 : " + number);//안에 String이 들어있기 때문에 실행이 되지 않음
 		} catch(NumberFormatException format) {
 			System.out.println("숫자만 넣어주세요.");
 			System.out.println("NumberFormatException 발생 : "+format.getMessage());
@@ -53,4 +54,33 @@ public class ExceptionMain {
 	
 		
 	}
+
+	public void ExceptionExam() {
+		try {
+			int[] numbers = {1,2,3,4,5};
+			int index = 7;// 유효하지 않은 인덱스 넘버
+			int result = numbers[index];// 배열 요소에 접근
+			System.out.println("Result : " + result);
+		} catch(ArrayIndexOutOfBoundsException e) {
+			//배열 인덱스가 범위를 벗어났을 때 발생하는 예외 처리
+			System.out.println("배열 인덱스 범위를 벗어나 예외가 발생!!");
+		} catch(Exception e) {
+			//다른 예외를 처리할 수 있는 예외 처리
+			System.out.println("배열 인덱스 범위를 벗어난 예외가 아닌 일반적인 다른 예외 발생");
+		} finally {
+			//항상 실행되는 블록
+			System.out.println("Finally 등장!");
+		}
+		System.out.println("프로그램이 종료되었습니다.");
+	}
 }
+
+
+
+
+
+
+
+
+
+
