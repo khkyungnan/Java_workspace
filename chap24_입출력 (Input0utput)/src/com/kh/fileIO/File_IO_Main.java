@@ -8,12 +8,17 @@ import java.io.IOException;
 
 public class File_IO_Main {
 	public static void main(String[] args) {
+		final String wpath = "C:\\Users\\user1\\Desktop//Userlog//고객관리파일 23-09-14.txt";
 		try {
-			FileWriter writer = new FileWriter("2.txt"); // 생성
+			
+			//     C:/Users/user1/Desktop
+			//wpath = "C:\\Users\\user1\\Desktop//귀여운신입이가만든폴더//새로운파일! 새로운세상!.txt";
+			FileWriter writer = new FileWriter(wpath); // 생성
 			writer.write("파일 덮어써지는지 테스트");//파일 쓰기
 			writer.close();// 파일 안에 내용을 다 쓰면 닫기
-			/*
-			FileReader reader = new FileReader("abcde.txt");
+			
+			//어디서 보던지 경로가 확실한 경로 절대경로
+			FileReader reader = new FileReader(wpath);
 			BufferedReader bufferdReader = new BufferedReader(reader);
 			
 			String line;
@@ -22,7 +27,7 @@ public class File_IO_Main {
 			}
 			
 			bufferdReader.close(); //파일을 다 읽으면 닫아주기.
-			*/
+			
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
