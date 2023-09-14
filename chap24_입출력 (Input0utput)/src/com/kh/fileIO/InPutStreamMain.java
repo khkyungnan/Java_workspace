@@ -1,5 +1,10 @@
 package com.kh.fileIO;
 
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.FileWriter;
+import java.io.IOException;
+
 public class InPutStreamMain {
 /*
  FileInputStream 
@@ -16,8 +21,35 @@ public class InPutStreamMain {
  	
  * */
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		FileInputStream fis = null;
+		try {
+			//경로는 현재 작성하고 있는 이클립스 / 파일 이름 설정
+			String fileName = "exam.txt";
+			try {
+				FileWriter w = new FileWriter(fileName);
+			} catch (IOException e1) {
+				// TODO Auto-generated catch block
+				e1.printStackTrace();
+			}
+			
+			fis = new FileInputStream(fileName);
+			
+			int data; //파일에서 데이터를 읽어들여서 출력
+			System.out.println("파일 만드는 객체까지 성공");
+			try {
+				data = fis.read();
+				System.out.println("파일 읽기 성공!");
+			} catch (IOException e) {
+				System.out.println("파일 읽기 실패!");
+				e.printStackTrace();
+			}
+		} catch (FileNotFoundException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 
 	}
 
 }
+
+
