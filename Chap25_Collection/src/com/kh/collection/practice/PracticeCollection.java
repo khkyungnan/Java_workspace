@@ -1,8 +1,10 @@
 package com.kh.collection.practice;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.HashSet;
 import java.util.List;
+import java.util.Map;
 import java.util.Set;
 
 public class PracticeCollection {
@@ -11,6 +13,7 @@ public class PracticeCollection {
 		PracticeCollection pc = new PracticeCollection();
 		pc.practiceList();
 		pc.practiceSet();
+		pc.practiceMap();
 	}
 	public void practiceList() {
 		List<String> pList = new ArrayList<>();
@@ -35,5 +38,15 @@ public class PracticeCollection {
 			System.out.println(s);
 		}
 	}
-
+	public void practiceMap() {
+		Map<String, Integer> pMap = new HashMap<>();
+		pMap.put("°¡",1);
+		pMap.put("³ª",2);
+		pMap.put("´Ù",3);
+		for(String a : pMap.keySet()) {
+			int num = pMap.get(a);
+			System.out.println(a + " : " + num);
+		}
+		
+	}
 }
