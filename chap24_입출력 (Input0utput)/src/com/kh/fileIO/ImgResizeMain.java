@@ -13,7 +13,7 @@ public class ImgResizeMain {
 		//원본 이미지 파일 경로 설정하고 이미지 리사이즈한 파일 경로 설정
 		String path = "C:\\Users\\user1\\Desktop\\";
 		String inputImg = path+"cute.jpg";
-		String ouputImg = path+"reSizeCute.jpg";
+		String ouputImg = path+"reSizeCute(Large).jpg";
 		
 		// 리사이즈할 이미지 크기 설정
 		int width = 200; //가로 길이
