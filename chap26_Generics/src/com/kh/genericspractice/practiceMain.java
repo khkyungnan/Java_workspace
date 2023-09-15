@@ -33,4 +33,12 @@ public class practiceMain {
 		}
 	}
 
+	public void practice2() {
+		// Box 객체를 com.kh.genericspractice; 밑에 생성
+		// 정수형 데이터를 저장하는 Box 인스턴스 생성
+		// 문자열 데이터를 저장하는 Box 인스턴스 생성
+		// 각 각 출력
+		
+	}
+	
 }
