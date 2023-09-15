@@ -20,10 +20,11 @@ public class TrowMain {
 			int number = getNumber(); //숫자를 가지고 옴
 			if (number < 0) {
 				throw new NegativeNumberException("음수는 허용이 되지 않습니다.");
+				//없애버림
 			}
 			System.out.println("입력한 숫자 : " + number);
 		} catch(NegativeNumberException e) {
-			System.out.println("예외 발생!!!" + e.getMessage());	
+			System.out.println("예외 발생!!!" + e.getMessage());	//전달
 		}
 	}
 
