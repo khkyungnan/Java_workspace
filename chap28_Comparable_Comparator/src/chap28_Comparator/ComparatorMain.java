@@ -28,8 +28,11 @@ public class ComparatorMain implements Comparator<String> {
 		str.add("banana");
 		str.add("cherry");
 		str.add("add");
+		str.add("abcdefg");
+		str.add("day");
+		str.add("z");
 		
-		//Comparator를 사용해서 문자열을 정렬
+		//Comparator를 사용해서 문자열을 정렬 1. 길이 2. 순서
 		Collections.sort(str, new ComparatorMain());
 		
 		// 정렬된 결과 출력
