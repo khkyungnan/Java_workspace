@@ -9,10 +9,10 @@ public class GameMain {
 	private static boolean isGameOver = false;
 	public static void main(String[] args) {
 		//외부 클래스의 인스턴스를 생성
-		SimpleGame s= new SimpleGame();
+		//SimpleGame s= new SimpleGame();
 		
 		// 게임 루프 스레드 시작
-		Thread gameThread = new Thread(s.new Gm());
+		Thread gameThread = new Thread(new Gm());
 		gameThread.start();
 		
 		// 게임 종료 조건 : 플레이어가 Enter 키를 누르면 게임 종료
