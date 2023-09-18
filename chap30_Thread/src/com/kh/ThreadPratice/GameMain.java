@@ -1,9 +1,11 @@
-package com.kh.ThreadMain;
+package com.kh.ThreadPratice;
 
 import java.io.IOException;
 import java.util.Random;
 
-public class SimpleGame {
+import com.kh.ThreadMain.SimpleGame;
+
+public class GameMain {
 	private static boolean isGameOver = false;
 	public static void main(String[] args) {
 		//외부 클래스의 인스턴스를 생성
