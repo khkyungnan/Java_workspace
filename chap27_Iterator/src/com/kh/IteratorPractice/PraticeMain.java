@@ -19,6 +19,10 @@ public class PraticeMain {
 			String f = iter.next();
 			System.out.println(f);
 		}
+		
+		//요소 삭제
+		
+		//ArrayList 출력하기
 
 	}
 

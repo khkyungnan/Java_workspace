@@ -27,6 +27,23 @@ public class IteratorMain {
 			String msc = iter.next();
 			System.out.println(msc);
 		}
+		
+		//Iterator를 사용하여 요소 삭제
+		iter = music.iterator(); //다시  Iterator 초기화
+		while (iter.hasNext()) {
+			String msc = iter.next();
+			//만약에 트로트가 들어오면 삭제하길 원함
+			if(msc.equals("트로트")) {
+				iter.remove(); //현재 요소 삭제
+			}
+			System.out.println(msc);
+		}
+		
+		//삭제 후 ArrayList 출력
+		System.out.println("삭제 후 출력");
+		for (String a : music) {
+			System.out.println(a);
+		}
 	}
 
 }
