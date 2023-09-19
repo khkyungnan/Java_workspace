@@ -52,10 +52,26 @@ public class BinaryTree {
 			inOrderTR(root.left);
 			System.out.println(root.data + " ");
 			inOrderTR(root.right);
+			
 		}
 	}
 	public static void main(String[] args) {
-
+		BinaryTree tree = new BinaryTree();
+		
+		tree.insert(50);
+		tree.insert(30);
+		tree.insert(70);
+		tree.insert(20);
+		tree.insert(40);
+		tree.insert(60);
+		tree.insert(80);
+		
+		System.out.println("이진 트리의 중위 순회 결과 : ");
+		tree.inOrderT();
 	}
 
 }
+
+
+
+
