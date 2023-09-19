@@ -1,7 +1,7 @@
 package com.kh.GraphMain;
 
 import java.util.LinkedList;
-
+/**/
 public class Graph {
 	private int V; //그래프의 노드 수
 	private LinkedList<Integer>[] adjList; //인접 리스트 배열
@@ -16,7 +16,15 @@ public class Graph {
 	}
 	
 	//노드를 그래프에 추가
-	public void addEdge(int source, int des)
+	public void addEdge(int source, int des) {
+		adjList[source].add(des);
+	}
+	
+	//그래프 탐색(깊이 우선 탐색)
+	public void DFS(int startNode) {
+		boolean[] visited = new boolean[v];
+		
+	}
 }
 
 
