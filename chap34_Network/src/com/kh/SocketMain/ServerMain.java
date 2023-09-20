@@ -13,7 +13,7 @@ public class ServerMain {
         // 소켓 서버 생성
         ServerSocket serverSocket = new ServerSocket(2348);
         System.out.println("서버가 시작되었습니다.");
-
+  
         // 클라이언트 연결 대기
         Socket clientSocket = serverSocket.accept();
         System.out.println("클라이언트가 연결되었습니다.");
