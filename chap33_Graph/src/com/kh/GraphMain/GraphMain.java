@@ -19,7 +19,7 @@ public class GraphMain {
 
 		// DFS 탐색을 시작할 노드의 번호를 전달
 		//0으로 시작함
-		graph.DFS(0); // 0 1 3 2 4 
+		graph.DFS(4); // 0 1 3 2 4 
 	}
 }
 
