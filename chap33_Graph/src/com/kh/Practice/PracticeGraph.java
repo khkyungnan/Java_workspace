@@ -1,10 +1,17 @@
 package com.kh.Practice;
 
 public class PracticeGraph {
-
 	public static void main(String[] args) {
+		PracticeGraph ph = new PracticeGraph();
+		ph.DFSPracticeMain();
+	}
+	public void BFSPracticeMain() {
+		
+	}
+	
+	public void DFSPracticeMain() {
 		int ver = 7; //그래프 노의 수를 5로 정의
-		Graph2 graph = new Graph2(ver);
+		DFSGraph graph = new DFSGraph(ver);
 		
 		//addEdge  간선 추가하겠다.
 		graph.addEdge(0, 1); //노드 0에서 노드 1로 방향이 있는 엣지를 추가
@@ -20,12 +27,8 @@ public class PracticeGraph {
 		//0으로 시작함
 		graph.DFS(0); // 0 1 3 2 4 5 6
 	}
-}
 
-/* DFS 탐색을 시작하여 그 결과를 출력
- * 탐색 결과는 시작 노드에서 출발하여 
- * 깊이 우선으로 탐색 후 노드를 방문한 순서대로 출력
- * */
+}
 
 
 

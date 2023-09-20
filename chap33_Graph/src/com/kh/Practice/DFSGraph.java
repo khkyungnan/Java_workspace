@@ -2,7 +2,7 @@ package com.kh.Practice;
 
 import java.util.LinkedList;
 /*Graph class : 인접리스트를 사용해서 노드와 간선을 저장*/
-public class Graph2 {
+public class DFSGraph {
 	private int V; //그래프의 노드 수
 	private LinkedList<Integer>[] adjList; //인접 리스트 배열
 	/*adjList :  배열은 인접 리스트를 저장하는 배열
@@ -10,7 +10,7 @@ public class Graph2 {
 	 * */
 	
 	//그래프 생성자 : 그래프 크기(노드 수)를 받아와서 그래프를 초기화 adJList 배열의 각 원소를 빈 LinkedeList 로 초기화
-	public Graph2(int ver) {
+	public DFSGraph(int ver) {
 		V = ver;
 		adjList = new LinkedList[ver];
 		for(int i = 0; i < ver; i++) {
