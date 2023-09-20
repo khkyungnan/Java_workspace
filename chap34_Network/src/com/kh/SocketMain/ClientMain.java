@@ -21,6 +21,21 @@ public class ClientMain {
 		
 		//키보드로부터 입력 받기 위한 생성
 		BufferedReader userInput = new BufferedReader(new InputStreamReader(System.in));
+		
+		String userInputString;
+		while((userInputString = userInput.readLine()) != null) {
+			// 사용자 입력을 서버로 전송하겠습니다.
+			out.println(userInputString);
+			
+			//서버로부터 받은 응답 출력
+			String serverResponse = in.readLine();
+			System.out.println("서버 너의 응답은 : " + serverResponse);
+		}
+		// 소켓 및 입력 스트림 닫기
+		socket.close();
+		userInput.close();
+		
+		
 	}
 
 }
