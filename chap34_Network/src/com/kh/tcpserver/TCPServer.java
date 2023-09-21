@@ -13,7 +13,7 @@ public class TCPServer {
 		try {
 			ServerSocket serverSocket = new ServerSocket(6789);
 			System.out.println("Server Waiting");
-			
+			int count = 0;
 			//만약에 클라이언트와 연결하고 싶다면 클라이언트와 연결하는 코드 작성
 			while(true) {
 				// 클라이언트와 연결 대기하는 코드
@@ -37,11 +37,12 @@ public class TCPServer {
 				
 				//만약 서버는 무한대로 실행이 되어야 하나
 				//실행 제한을 주고 싶을 때
-				int count = 0;
+				
 				if(count > 7) {
 					serverSocket.close(); //서버를 죽임
 					System.out.println("Server Close");
 				}
+				count += 1;
 			}
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
