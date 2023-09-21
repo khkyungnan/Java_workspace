@@ -43,7 +43,7 @@ public class JunitMain {
 	public void testDoubleInEqual() {
 		double expected = 0.1 + 0.2;
 		double actual = 0.31;
-		assertNotEquals(   ,     ,  );//부동 소수점이 다르다는 것을 검증
+		assertNotEquals(expected,actual,0.001);//부동 소수점이 다르다는 것을 검증
 									  //(오차 범위 지정)
 	}
 }
